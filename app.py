@@ -13,7 +13,7 @@ message = tk.Label(fenetre, text="Bonjour Git !", font=("Arial", 18))
 message.pack(pady=20)
 entree = tk.Entry(fenetre, width=32)
 entree.pack()
-bouton = tk.Button(fenetre, text="Afficher", command=afficher_message)
+bouton = tk.Button(fenetre, text="Mettre à jour", command=afficher_message)
 bouton.pack(pady=16)
 
 fenetre.mainloop()
